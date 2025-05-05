@@ -16,7 +16,7 @@ class BankAccount{
     double deposit;
     cout<<"How much money do u want to deposit?:\n";
     cin>>deposit;
-    Balance=deposit;
+    Balance=Balance+deposit;
     return Balance;
     }
     
